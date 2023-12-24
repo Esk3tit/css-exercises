@@ -12,6 +12,33 @@ img {
   font-weight: 900;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  max-width: 200px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
